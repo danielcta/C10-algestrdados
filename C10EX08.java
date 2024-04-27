@@ -58,4 +58,5 @@ public class C10EX08
         System.out.printf("Nome da cidade com menor população: %s\nPopulação total da cidade com menor população: %d", nomeMenorCidade, populacaoMenorCidade);
     }
 
+    cidades.close();
 }
