@@ -9,7 +9,7 @@ public class C10EX08
         long populacao, populacaoEstado = 0, eleitores,  mulheres, homens, mediaHomens = 0, maisMulheres = 0, populacaoMenorCidade = Long.MAX_VALUE;
         double percentualEleitoresEstado = 0;
 
-        Scanner cidades = new Scanner(C10EX08.class.getResourceAsStream("C10EX08.txt"));
+        Scanner cidades = new Scanner(C10EX08.class.getResourceAsStream("C10EX08.txt")); //fazer download do arquivo C10EX08.txt no mesmo diretório do github
 
         do
         {
